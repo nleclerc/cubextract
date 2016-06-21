@@ -1,0 +1,11 @@
+{
+  "name": "cubextract",
+  "version": "1.0.0",
+  "description": "Decode and extract cub files.",
+  "author": "Nicolas Leclerc <nl@spirotron.fr>",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "mkdirp": "^0.5.1"
+  }
+}

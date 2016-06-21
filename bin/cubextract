@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CURRENT_DIR=$( dirname "$0" )
+BASE_DIR=$CURRENT_DIR/..
+COFFEE_COMMAND=$BASE_DIR/node_modules/.bin/coffee
+SCRIPT_PATH=$BASE_DIR/extract.coffee
+
+$COFFEE_COMMAND $SCRIPT_PATH "$1" "$2"
