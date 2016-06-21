@@ -12,7 +12,7 @@ Those are found in some games.
 `bin/cubextract <SOURCE_FILE> <DESTINATION_FOLDER>`
 
 ## Note on the CUB format
-* Each byte is "encoded" byt XORing it with `0x96`.
+* Each byte is "encoded" by XORing it with `0x96`.
 * File starts with a specific header (`CUB_1.0_` underscores are actually bytes with a 0 value)
 * Followed by the number of entries (4 bytes, little endian)
 * Followed by the actual entries, made up of:
